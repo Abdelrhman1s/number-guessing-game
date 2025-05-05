@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Choose Difficulty</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Number Guessing Game</h1>
+    <form method="POST">
+        <p>Choose difficulty:</p>
+        <button type="submit" name="difficulty" value="easy">Easy</button>
+        <button type="submit" name="difficulty" value="medium">Medium</button>
+        <button type="submit" name="difficulty" value="hard">Hard</button>
+    </form>
+</body>
+</html>
